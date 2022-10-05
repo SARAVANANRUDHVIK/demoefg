@@ -12,6 +12,7 @@ public class check {
 		WebDriver driver =new ChromeDriver();
 		driver.get("https://www.youtube.com/");
 		driver.manage().window().maximize();
+		System.out.println("BROWSER LAUNCH");
 
 	}
 
