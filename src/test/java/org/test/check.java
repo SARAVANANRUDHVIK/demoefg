@@ -22,6 +22,7 @@ public class check {
 	public static void main(String[] args) throws IOException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver =new ChromeDriver();
+
 		driver.get("https://amazon.com/");
 		System.out.println();
 		//driver.manage().window().maximize();
@@ -33,7 +34,11 @@ public class check {
 //		jk.executeScript(arguments[0]., args)
 //		
 //		System.out.println("BROWSER LAUNCH");
-		
+
+		driver.get("https://www.youtube.com/");
+		driver.manage().window().maximize();
+		System.out.println("BROWSER LAUNCH");
+
 
 	
 	}}
